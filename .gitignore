@@ -1,0 +1,41 @@
+# Diretórios de dependências
+node_modules/
+.sass-cache/
+
+# Arquivos de ambiente
+.env
+.env.local
+.env*.local
+
+# Logs e relatórios
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# SASS/SCSS output (se usar compilação local)
+dist/css/*.css
+dist/css/*.map
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Dependências opcionais
+jspm_packages/
+
+# Testes
+coverage/
+.nyc_output/
+
+# Build automático
+.cache/
+.temp/
